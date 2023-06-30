@@ -1,20 +1,16 @@
 .App {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  background-color: #8100f1;
 }
 
 .App-header {
   background-color: #282c34;
+  grid-column: 1 / span 3;
+  grid-row: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,14 +18,47 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 .App-footer {
   background-color: #282c34;
+  grid-column: 1 / span 3;
+  grid-row: 3;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(5px + 2vmin);
   color: white;
+}
+
+.content {
+  grid-column: 2;
+  grid-row: 2;
+  background-color: white;
+}
+
+.content > div{
+  padding-bottom: 2rem;
+  border-bottom: solid black 1px;
+}
+
+#dzis{
+  background-color: lawngreen;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+#jutro{
+  background-color: orange;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+#pojutrze{
+  background-color: orangered;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
 }
 
 .App-link {
