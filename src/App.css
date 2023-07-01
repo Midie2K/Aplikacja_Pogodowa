@@ -49,13 +49,13 @@
   border-radius: 10px;
 }
 #jutro{
-  background-color: orange;
+  background-color: #ffea00;
   display: inline-block;
   padding: 10px 20px;
   border-radius: 10px;
 }
 #pojutrze{
-  background-color: orangered;
+  background-color: orange;
   display: inline-block;
   padding: 10px 20px;
   border-radius: 10px;
@@ -63,6 +63,37 @@
 
 .App-link {
   color: #61dafb;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #eaeaea;
+}
+
+td:first-child {
+  border-left: 1px solid #ccc;
+}
+
+td:last-child {
+  border-right: 1px solid #ccc;
 }
 
 @keyframes App-logo-spin {
