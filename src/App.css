@@ -6,7 +6,6 @@
   text-align: center;
   background-color: #8100f1;
 }
-
 .App-header {
   background-color: #282c34;
   grid-column: 1 / span 3;
@@ -18,7 +17,6 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
 .App-footer {
   background-color: #282c34;
   grid-column: 1 / span 3;
@@ -30,52 +28,48 @@
   font-size: calc(5px + 2vmin);
   color: white;
 }
-
 .content {
   grid-column: 2;
   grid-row: 2;
   background-color: white;
 }
-
 .content > div{
   padding-bottom: 2rem;
   border-bottom: solid black 1px;
 }
-
 #dzis{
   background-color: lawngreen;
   display: inline-block;
   padding: 10px 20px;
   border-radius: 10px;
+  margin: 1rem 0 1rem 0;
 }
 #jutro{
   background-color: #ffea00;
   display: inline-block;
   padding: 10px 20px;
   border-radius: 10px;
+  margin: 1rem 0 1rem 0;
 }
 #pojutrze{
   background-color: orange;
   display: inline-block;
   padding: 10px 20px;
   border-radius: 10px;
+  margin: 1rem 0 1rem 0;
 }
-
 .App-link {
   color: #61dafb;
 }
-
 table {
   width: 100%;
   border-collapse: collapse;
   margin-bottom: 2rem;
 }
-
 th, td {
   padding: 8px;
   text-align: center;
 }
-
 th {
   background-color: #f2f2f2;
 }
@@ -83,19 +77,15 @@ th {
 tr:nth-child(even) {
   background-color: #f9f9f9;
 }
-
 tr:hover {
   background-color: #eaeaea;
 }
-
 td:first-child {
   border-left: 1px solid #ccc;
 }
-
 td:last-child {
   border-right: 1px solid #ccc;
 }
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
